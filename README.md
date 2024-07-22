@@ -20,6 +20,8 @@ This project, developed as part of the ICC course at EPFL, investigates the impa
 1. Clone the repository:
     ```bash
     git clone https://github.com/Bahey-shalash/Sinussum.git
+    ```
+    ```
     cd Sinussum
     ```
 
@@ -27,8 +29,12 @@ This project, developed as part of the ICC course at EPFL, investigates the impa
     ```bash
     g++ -std=c++11 Sinussum.cc -o proj
     ```
+    or
+   ```bash
+   clang++ -std=c++11 Sinussum.cc -o proj
+   ```
 
-3. Create a test input file (e.g., `t01.txt`), which includes the parameters for the program:
+4. Create a test input file (e.g., `t01.txt`), which includes the parameters for the program:
     ```
     SQUARE
     1
@@ -37,12 +43,12 @@ This project, developed as part of the ICC course at EPFL, investigates the impa
     5
     ```
 
-4. Run the program with the test file:
+5. Run the program with the test file:
     ```bash
     ./proj < t01.txt
     ```
 
-5. To redirect the output to a file:
+6. To redirect the output to a file:
     ```bash
     ./proj < t01.txt > out01.txt
     ```
